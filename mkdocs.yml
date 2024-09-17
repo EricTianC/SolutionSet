@@ -2,6 +2,9 @@ site_name: 卷群题解汇编
 
 theme:
   name: material
+  language: zh
+  palette:
+    primary: deep purple
 
 markdown_extensions:
   - pymdownx.arithmatex:
