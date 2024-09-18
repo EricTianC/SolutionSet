@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#12" class="md-skip">
           跳转至
         </a>
       
@@ -259,7 +259,7 @@
             
   
   <span class="md-ellipsis">
-    MA数学分析B1
+    数学分析讲义
   </span>
   
 
@@ -269,7 +269,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            MA数学分析B1
+            数学分析讲义
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -322,11 +322,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#12" class="md-nav__link">
     <span class="md-ellipsis">
-      极限题
+      习题 1.2
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="习题 1.2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      20
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      21
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -371,11 +395,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#12" class="md-nav__link">
     <span class="md-ellipsis">
-      极限题
+      习题 1.2
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="习题 1.2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      20
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      21
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -399,13 +447,23 @@
 
   <h1>第一章</h1>
 
-<h2 id="_1">极限题</h2>
-<p>设函数 <span class="arithmatex">\( f(x) = \frac{\sin(x)}{x} \)</span>，求极限：</p>
-<div class="arithmatex">\[ \lim_{x \to 0} \frac{\sin(x)}{x} \]</div>
-<p><strong>解答：</strong></p>
-<p>利用洛必达法则：</p>
-<div class="arithmatex">\[ \lim_{x \to 0} \frac{\sin(x)}{x} = \lim_{x \to 0} \frac{\cos(x)}{1} = \cos(0) = 1 \]</div>
-<p>因此，极限为 1。</p>
+<h2 id="12">习题 1.2</h2>
+<h3 id="20">20</h3>
+<p>证明: 若 <span class="arithmatex">\(a_n &gt; 0\)</span>, 且 <span class="arithmatex">\(\lim_{n\to \infty}{\frac{a_n}{a_{n+1}}}=l&gt;1\)</span>, 则 <span class="arithmatex">\(\lim_{n\to \infty}{a_n}=0\)</span></p>
+<h3 id="21">21</h3>
+<p>设 <span class="arithmatex">\(\{a_n\}, \{b_n\}\)</span> 是正数列, 满足 <span class="arithmatex">\(\frac{a_{n+1}}{a_n} \le \frac{b_{n+1}}{b_n}, n=1,2,\cdots\)</span>, 
+求证: 若 <span class="arithmatex">\(\{b_n\}\)</span> 收敛，则 <span class="arithmatex">\(\{a_n\}\)</span> 收敛. </p>
+<p><strong>分析:</strong> 可以构造新数列 <span class="arithmatex">\(\{c_n\}\)</span>, 使</p>
+<div class="arithmatex">\[
+c_n = \frac{a_n}{b_n} &gt; 0
+\]</div>
+<p>又由题设可得</p>
+<div class="arithmatex">\[
+c_{n+1} \le c_{n}
+\]</div>
+<p>即 <span class="arithmatex">\(\{c_n\}\)</span> （不严格）单调递减. </p>
+<p>于是由单调有界数列必有极限可知 <span class="arithmatex">\(\{c_n\}\)</span> 收敛, 
+则由 <span class="arithmatex">\(a_n = b_n c_n\)</span> 可知,  <span class="arithmatex">\(\{a_n\}\)</span> 也收敛.</p>
 
 
 
