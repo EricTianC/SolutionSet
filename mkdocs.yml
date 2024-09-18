@@ -1,10 +1,16 @@
 site_name: 卷群题解汇编
 
+repo_url: https://github.com/erictianc/SolutionSet
+
 theme:
   name: material
   language: zh
   palette:
     primary: deep purple
+
+plugins:
+  - search:
+      separator: '[\s\u200b\-]'
 
 markdown_extensions:
   - pymdownx.arithmatex:
@@ -17,3 +23,8 @@ extra_javascript:
 
 extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css
+
+nav:
+  - 首页: index.md
+  - MA数学分析B1:
+    - MA数学分析B1/第一章.md
